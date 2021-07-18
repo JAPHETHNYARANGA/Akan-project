@@ -24,7 +24,7 @@ close.addEventListener('click', ()=>{
     // alert("The form was submitted");
     const male = ['Kwasi', 'Kwadwo', 'Kwabena', 'Kwaku', 'Yaw', 'Kofi', 'Kwame'];
     const female=['Akosua', 'Adwoa', 'Abenaa', 'Akua', 'Yaa', 'Afua', 'Ama'];
-    const days= ['Monday', 'Tuesday','Wednesday','Thursday','Friday'];
+    const days= ['Sunday','Monday', 'Tuesday','Wednesday','Thursday','Friday','Saturday' ];
 
 //    var akanR = document.getElementById("textR").innerHTML;
 
@@ -89,7 +89,7 @@ function getGender(){
           else if(day1 == 6){
             alert(First + Last +" You were born on "+days[5] +  " and Your akan name is " +male[5]);
           }
-          else if(day1 == 7){
+          else if(day1 == -0){
             alert(First + Last +" You were born on "+days[6] + " and Your akan name is " +male[6]);
           }
         break;
@@ -111,7 +111,7 @@ function getGender(){
           }
           else if(day1 == 6){
             alert(First + Last +" You were born on " +days[5] + " and Your akan name is " + female[5]);
-          }else if(day1 == 7){
+          }else if(day1 == -0){
             alert(First + Last +" You were born on " +days[6] + " and Your akan name is " +female[6]);
           }
         break
