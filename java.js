@@ -89,7 +89,7 @@ function getGender(){
           else if(day1 == 6){
             alert(First + Last +" You were born on "+days[5] +  " and Your akan name is " +male[5]);
           }
-          else if(day1 == -0){
+          else if(day1 == 7){
             alert(First + Last +" You were born on "+days[6] + " and Your akan name is " +male[6]);
           }
         break;
@@ -111,7 +111,7 @@ function getGender(){
           }
           else if(day1 == 6){
             alert(First + Last +" You were born on " +days[5] + " and Your akan name is " + female[5]);
-          }else if(day1 == -0){
+          }else if(day1 == 7){
             alert(First + Last +" You were born on " +days[6] + " and Your akan name is " +female[6]);
           }
         break
