@@ -93,3 +93,11 @@ form{
 
 
 }
+/* tablets, ipads and small screens*/
+@media screen and (min-width:481px) and (max-width:768px){
+    .fas{
+        position: fixed;
+        top:0;
+        background-color: white;
+    }
+}
