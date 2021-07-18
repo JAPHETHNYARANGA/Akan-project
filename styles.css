@@ -137,4 +137,49 @@ form{
         font-weight: 500;
         font-size: 20px;
     }
+    .form-bg{
+   
+        color:white;
+        background-color: black;
+        width:100%;
+        border-top-left-radius: 2rem;
+        border-bottom-left-radius: 2rem;
+        border-top-right-radius: 2rem;
+        border-bottom-right-radius: 2rem;
+    
+        
+        
+    }
+    form{
+        padding:2rem;
+    }
+    #first-name{
+        margin:0 0 1rem 0;
+    }
+    .check-boxes{
+        display: flex;
+        margin: 0 0 1rem 23%;
+    }
+    .gender{
+        text-align: center;
+        margin:0 0 1rem 0;
+        font-size:20px;
+        color:lightskyblue;
+    }
+    .btn{
+        margin:1rem 0 0 0;
+    }
+    .phone-results{
+        
+        color:white;
+        width:100%;
+        height:25rem;
+         margin-top: 1rem; 
+        background-color: black;
+        border-top-left-radius: 2rem;
+        border-bottom-left-radius: 2rem;
+        border-top-right-radius: 2rem;
+        border-bottom-right-radius: 2rem;
+    }
+    
 }
