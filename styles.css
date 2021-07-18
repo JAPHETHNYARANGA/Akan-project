@@ -100,4 +100,33 @@ form{
         top:0;
         background-color: white;
     }
+    .navbar1{
+        position: relative;
+        height:4rem; 
+        margin:1rem 0;
+       
+    }
+    .nav{
+        height:50%;
+        width:0;
+        background-color: #32cd32;
+        position:fixed;
+        z-index:2;
+        top:0;
+        left:0;
+        overflow-x: hidden;
+        padding-top:60px;
+        transition:0.8s;
+    }
+    .nav ul {
+        list-style: none;
+       
+    }
+    .nav ul li a{
+        text-decoration: none;
+        font-weight: 700;
+        font-size: 20px;
+        color:white;
+        
+    }
 }
