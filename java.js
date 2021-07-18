@@ -51,15 +51,7 @@ close.addEventListener('click', ()=>{
     }
     
 
-    function checkGender(){
-        if(genders[0].checked==false && genders[1].checked==false ) {
-            alert("You must select male or female");
-            return false;
-        }   
-        else{
-          return true ;
-        }
-    }
+    
     
    
 

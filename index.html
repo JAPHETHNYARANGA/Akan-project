@@ -41,13 +41,13 @@
           <div class="form-bg">
               <form onsubmit = "getAkanNames()">
                   
-                  <input type="text" class="form-control" id="first-name" placeholder="First Name" >
-                  <input type="text" class="form-control" id="last-name" placeholder="Second Name" >
+                  <input type="text" class="form-control" id="first-name" placeholder="First Name" required >
+                  <input type="text" class="form-control" id="last-name" placeholder="Second Name" required>
                   <div class="gender">
                     <h3>GENDER</h3>
                     <div class="check-boxes">
                         <div class="form-check">
-                          <input type="radio" class="form-check-input" name="gender" id="male">&nbsp; Male 
+                          <input type="radio" class="form-check-input" name="gender" required id="male">&nbsp; Male 
                             <label class="form-check-label" for="flexCheckDefault">
                               <!-- MALE -->
                             </label>
@@ -63,17 +63,17 @@
                         <div class="date of birth">
                             <div class="year">
                               <label for="enterbirthyear">YEAR OF BIRTH</label>
-                              <input type="number" class="form-control" name= "birthyear"  id="birthyear" placeholder="Enter NumericalYear Of Birth" max="2021" minlength="4">
+                              <input type="number" class="form-control" name= "birthyear"  id="birthyear" placeholder="Enter NumericalYear Of Birth" max="2021" minlength="4" required>
                             </div>
       
                             <div class="month">
                               <label for="enterbirthmonth">MONTH OF BIRTH</label>
-                              <input type="text" class="form-control" name= "birthmonth" id="birthmonth" placeholder="Enter Numerical Month Of Birth" min="0" max="12" >
+                              <input type="text" class="form-control" name= "birthmonth" id="birthmonth" placeholder="Enter Numerical Month Of Birth" min="0" max="12" required>
                             </div>
                             
                             <div class="day">
                               <label for="enterbirthday">DAY OF BIRTH</label>
-                              <input type="number" class="form-control"  name= "birthday" id="birthday" placeholder="Enter Numerical Day Of Birth" min="0" max="31" >
+                              <input type="number" class="form-control"  name= "birthday" id="birthday" placeholder="Enter Numerical Day Of Birth" min="0" max="31" required>
                             </div>
                             
                             <input type="submit" class="btn btn-primary">

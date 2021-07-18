@@ -5,8 +5,8 @@ body, html{
 
     /* position:absolute; */
 
-
-
+.phone-results{display:none;}
+.results{display:none;}
 
 /* phone screen*/
 @media only screen and (max-width:480px){
