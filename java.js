@@ -26,7 +26,7 @@ close.addEventListener('click', ()=>{
     const female=['Akosua', 'Adwoa', 'Abenaa', 'Akua', 'Yaa', 'Afua', 'Ama'];
     const days= ['Monday', 'Tuesday','Wednesday','Thursday','Friday'];
 
-   
+//    var akanR = document.getElementById("textR").innerHTML;
 
 
     // event.preventDefault();
@@ -80,47 +80,47 @@ function getGender(){
       switch(gender){
         case "male":
           if (day1 == 1){
-            alert("You were born on " +days[0] + " and Your akan name is " +male[0]+"!");
+            document.getElementById("textR").innerHTML="You were born on " +days[0] + " and Your akan name is " +male[0];
           }
           else if(day1 == 2){
-            alert(" You were born on "+days[1] + " and Your akan name is " +male[1]);
+            document.getElementById("textR").innerHTML=" You were born on "+days[1] + " and Your akan name is " +male[1];
           }
           else if(day1 == 3){
-            alert(" You were born on " +days[2]+ " and Your akan name is " +male[2]);
+            document.getElementById("textR").innerHTML=" You were born on " +days[2]+ " and Your akan name is " +male[2];
           }
           else if(day1 == 4){
-            alert(" You were born on "+days[3] +  " and Your akan name is " +male[3]);
+            document.getElementById("textR").innerHTML=" You were born on "+days[3] +  " and Your akan name is " +male[3];
           }
           else if(day1 == 5){
-            alert(" You were born on "+days[4] +  " and Your akan name is " +male[4]);
+            document.getElementById("textR").innerHTML=" You were born on "+days[4] +  " and Your akan name is " +male[4];
           }
           else if(day1 == 6){
-            alert(" You were born on "+days[5] +  " and Your akan name is " +male[5]);
+            document.getElementById("textR").innerHTML=" You were born on "+days[5] +  " and Your akan name is " +male[5];
           }
           else if(day1 == -0){
-            alert(" You were born on "+days[6] + " and Your akan name is " +male[6]);
+            document.getElementById("textR").innerHTML=" You were born on "+days[6] + " and Your akan name is " +male[6];
           }
         break;
         case "female":
           if (day1 == 1){
-            alert(" You were born on "+days[0] + " and Your akan name is  " +female[0]);
+            document.getElementById("textR").innerHTML=" You were born on "+days[0] + " and Your akan name is  " +female[0];
           }
           else if(day1 == 2){
-            alert(" You were born on " +days[1] + " and Your akan name is " +female[1]);
+            document.getElementById("textR").innerHTML=" You were born on " +days[1] + " and Your akan name is " +female[1];
           }
           else if(day1 == 3){
-            alert(" You were born on " +days[2] + " and Your akan name is " +female[2]);
+            document.getElementById("textR").innerHTML=" You were born on " +days[2] + " and Your akan name is " +female[2];
           }
           else if(day1 == 4){
-            alert(" You were born on " +days[3] + " and Your akan name is " +female[3]);
+            document.getElementById("textR").innerHTML=" You were born on " +days[3] + " and Your akan name is " +female[3];
           }
           else if(day1 == 5){
-            alert(" You were born on " +days[4] + " and Your akan name is " +female[4]);
+            document.getElementById("textR").innerHTML=" You were born on " +days[4] + " and Your akan name is " +female[4];
           }
           else if(day1 == 6){
-            alert(" You were born on " +days[5] + " and Your akan name is " + female[5]);
+            document.getElementById("textR").innerHTML=" You were born on " +days[5] + " and Your akan name is " + female[5];
           }else if(day1 == -0){
-            alert(" You were born on " +days[6] + " and Your akan name is " +female[6]);
+            document.getElementById("textR").innerHTML=" You were born on " +days[6] + " and Your akan name is " +female[6];
           }
         break
         default:
@@ -131,6 +131,7 @@ function getGender(){
 
 
 function getAkanNames(){
+    
   day1 = getValue();
   getGender();
 }
