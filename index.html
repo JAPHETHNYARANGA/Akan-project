@@ -4,89 +4,93 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Akan names</title>
+    <title>Akan Project</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
     <link rel="stylesheet" href="styles.css" type="text/css">
 </head>
 <body>
+  <div class="container-fluid">
     <div class="navbar1">
-        <div class="nav">
-          <ul>
-    
-            <div class="li-pos">
-              <li><a href="">HOME</a></li>
-              <li><a href="">HOME</a></li>
-              <li><a href="">HOME</a></li>
-            </div>
-              
-          </ul>
-          <!-- <i class="fas fa-times"></i> -->
-      </div>
-      <i class="fas fa-bars fa-2x"></i>
-
-      <div class="text">
-        <p>Akan names are derived from Ghanian culture. Frequently in Ghana, children are given their first name as a 'day name' which corresponds to the day in the week they were born. Here are Ghanian day names.</p>
-        <!--Laptop, tablet and desktop results-->
-        <div class="results">
+      <div class="nav">
+        <ul>
   
-        </div>
-    </div>
-    <div class="form-bg">
-        <form action="" onsubmit = "getAkan()">
+          <div class="li-pos">
+            <li><a href="">HOME</a></li>
+            <li><a href="">HOME</a></li>
+            <li><a href="">HOME</a></li>
+          </div>
             
-            <input type="text" class="form-control" id="first-name" placeholder="First Name" >
-            <input type="text" class="form-control" id="last-name" placeholder="Second Name" >
-            <div class="gender">
-              <h3>GENDER</h3>
-              <div class="check-boxes">
-                  <div class="form-check">
-                    <input type="radio" class="form-check-input" name="gender" id="male">&nbsp; Male 
-                      <label class="form-check-label" for="flexCheckDefault">
-                        <!-- MALE -->
-                      </label>
-                    </div>
-                    <div class="form-check">
-                      <input type="radio" class="form-check-input" name="gender" id="female">&nbsp; Female 
-                      <label class="form-check-label" for="flexCheckDefault">
-                        <!-- FEMALE -->
-                      </label>
-                    </div>
-            </div>
-            <div class="date of birth">
-                <div class="year">
-                  <label for="enterbirthyear">YEAR OF BIRTH</label>
-                  <input type="number" class="form-control" name= "birthyear"  id="birthyear" placeholder="Enter NumericalYear Of Birth" max="2021" minlength="4">
-                </div>
+        </ul>
+        <!-- <i class="fas fa-times"></i> -->
+    </div>
+    <i class="fas fa-bars fa-2x"></i>
+    </div>
+      <div class="mid-section">
+        
+            <div class="text">
+              <p>Akan names are derived from Ghanian culture. Frequently in Ghana, children are given their first name as a 'day name' which corresponds to the day in the week they were born. Here are Ghanian day names.</p>
+              <!--Laptop, tablet and desktop results-->
+              <div class="results">
+        
+              </div>
+          </div>
+          
+          <div class="form-bg">
+              <form action="" onsubmit = "getAkan()">
+                  
+                  <input type="text" class="form-control" id="first-name" placeholder="First Name" >
+                  <input type="text" class="form-control" id="last-name" placeholder="Second Name" >
+                  <div class="gender">
+                    <h3>GENDER</h3>
+                    <div class="check-boxes">
+                        <div class="form-check">
+                          <input type="radio" class="form-check-input" name="gender" id="male">&nbsp; Male 
+                            <label class="form-check-label" for="flexCheckDefault">
+                              <!-- MALE -->
+                            </label>
+                          </div>
+                          <div class="form-check">
+                            <input type="radio" class="form-check-input" name="gender" id="female">&nbsp; Female 
+                            <label class="form-check-label" for="flexCheckDefault">
+                              <!-- FEMALE -->
+                            </label>
+                          </div>
+                  </div>
+                  
+                        <div class="date of birth">
+                            <div class="year">
+                              <label for="enterbirthyear">YEAR OF BIRTH</label>
+                              <input type="number" class="form-control" name= "birthyear"  id="birthyear" placeholder="Enter NumericalYear Of Birth" max="2021" minlength="4">
+                            </div>
+      
+                            <div class="month">
+                              <label for="enterbirthmonth">MONTH OF BIRTH</label>
+                              <input type="number" class="form-control" name= "birthmonth" id="birthmonth" placeholder="Enter Numerical Month Of Birth" min="0" max="12" >
+                            </div>
+                            
+                            <div class="day">
+                              <label for="enterbirthday">DAY OF BIRTH</label>
+                              <input type="number" class="form-control"  name= "birthday" id="birthday" placeholder="Enter Numerical Day Of Birth" min="0" max="31" >
+                            </div>
+                            
+                            <input type="submit" class="btn btn-primary">
+                        </div>
+                  </div>
+              </form>
+        </div>
 
-                <div class="month">
-                  <label for="enterbirthmonth">MONTH OF BIRTH</label>
-                  <input type="text" class="form-control" name= "birthmonth" id="birthmonth" placeholder="Enter Numerical Month Of Birth" min="0" max="12" >
-                </div>
-                
-                <div class="day">
-                  <label for="enterbirthday">DAY OF BIRTH</label>
-                  <input type="number" class="form-control"  name= "birthday" id="birthday" placeholder="Enter Numerical Day Of Birth" min="0" max="31" >
-                </div>
-                
-                <input type="submit" class="btn btn-primary">
-            </div>
+        <div class="phone-results">
+
+        </div>
       </div>
-  </form>
-</div>
-<div class="phone-results">
-
-</div>
-</div>
-
-
-</div>
-
-
-
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-<script src="java.js"></script>
-
+      
+      
+  </div>
+  
     
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="java.js"></script>
 </body>
 </html>
