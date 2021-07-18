@@ -37,4 +37,25 @@ body, html{
     color:white;
     
 }
+.results{
+    display:none;
+}
+.text{
+    width:100%;
+    font-weight: 500;
+    font-size: 20px;
+}
+.form-bg{
+   
+    color:white;
+    background-color: black;
+    width:100%;
+    border-top-left-radius: 2rem;
+    border-bottom-left-radius: 2rem;
+    border-top-right-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+
+    
+    
+}
 }
